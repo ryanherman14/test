@@ -1,4 +1,11 @@
 /* CSS Document */
 
-h1 { color:#03C;
+.title { color:#03C;height: 20px;
+	
+}
+
+.title:hover {  
+		transition:.2s ease-out;
+	-webkit-transition: height .2s ease-out;
+	height:35px;color:red;
 }
